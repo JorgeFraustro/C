@@ -1,13 +1,21 @@
 #include <stdio.h>
+#include <math.h>
+
 #define PI 3.14159
 int main()
 {
 int r;
 float l, a;
+
 printf("Introduce radio (entero): ");
 scanf("%d", &r);
-l=2*PI*r; 
-a=PI*r*r;
+
+l= 2 * M_PI *r;
+a= M_PI * pow (r,2);
+
+/*Para truncar decimales, establecemos el número que necesitamos 
+dentro del comando a ejecutar, ejemplo: char[3] */
+
 printf("La longitud de la circunferencia vale %f\n", l);
-printf("El Ã¡rea del cÃ­rculo vale %f\n", a);
+printf("El área del círculo vale %f\n", a);
 }

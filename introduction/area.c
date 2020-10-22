@@ -3,12 +3,12 @@
 
 #define PI 3.1416 //Definiendo una constante
 
-void main(){
+int main(){
 	float area, radio; //Declarando variables de tipo flotante
-	radio = 5; //Asignando valor a variable-radio
+	radio = 5.12; //Asignando valor a variable-radio
 	area = PI * pow(5,2); //Asignando el resultado de la operación a variable area
 	printf("Area\n"); //Imprimieno titulo
 	//Imprimiendo resultado
-	printf("Area de Circulo con radio 5: %f", area);
+	printf("Area de Circulo con radio %f: %f/n", radio, area);
 	return 0; 
 }

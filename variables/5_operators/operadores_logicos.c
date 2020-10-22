@@ -4,10 +4,10 @@
 int main()
 { // Inicio
 
- system("clear"); // Limpia pantalla
+ system("cls"); // Limpia pantalla
  
- printf("!(1 != 1) devuelve %d que implica verdadero\n",!(1 != 1));
- printf("!(1 == 1) devuelve %d que implica falso\n",!(1 == 1));
+ printf("!(1 != 1) devuelve %d que implica verdadero\n",!(1 != 1)); // !(0) = 1
+ printf("!(1 == 1) devuelve %d que implica falso\n",!(1 == 1)); // 
  printf("1 == 1 && 2 == 2 devuelve %d que implica verdadero\n",1 == 1 && 2 == 2);
  printf("1 == 1 && 2 == 3 devuelve %d que implica falso\n",1 == 1 && 2 == 3);
  printf("1 == 1 || 2 == 3 devuelve %d que implica verdadero\n",1 == 1 || 2 == 3);
