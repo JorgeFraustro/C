@@ -16,6 +16,6 @@ a= M_PI * pow (r,2);
 /*Para truncar decimales, establecemos el número que necesitamos 
 dentro del comando a ejecutar, ejemplo: char[3] */
 
-printf("La longitud de la circunferencia vale %f\n", l);
-printf("El área del círculo vale %f\n", a);
+printf("La longitud de la circunferencia vale %0.3f\n", l);
+printf("El área del círculo vale %0.3f\n", a);
 }
